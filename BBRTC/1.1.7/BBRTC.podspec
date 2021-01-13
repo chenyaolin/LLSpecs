@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
 
   #s.source_files = 'BBRTC/**/*.{h,m,swift}'
-  s.source_files = 'BBRTC/Classes/**/*.{h,m,swift}'
+  #s.source_files = 'BBRTC/Classes/**/*.{h,m,swift}'
   s.vendored_frameworks = 'WebRTC.framework'
   s.dependency 'Starscream', '~> 3.0'
 
